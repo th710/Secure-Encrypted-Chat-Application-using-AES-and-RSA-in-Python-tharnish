@@ -56,10 +56,15 @@ All chat messages are encrypted using AES (CBC/ECB).
 Multi-threading is used to allow sending and receiving simultaneously.
 
 📁 File Structure
-bash
-Copy
-Edit
+
 secure-chat-app/
 ├── secure_server.py   # Server-side logic
 ├── secure_client.py   # Client-side logic
 └── README.md          # This file
+# Secure AES + RSA Chat (Python 3.12)
+
+## Install
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
